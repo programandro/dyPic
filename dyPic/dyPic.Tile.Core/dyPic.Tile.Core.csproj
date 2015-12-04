@@ -40,13 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnimationType.cs" />
     <Compile Include="Block.cs" />
+    <Compile Include="BlockAnimation.cs" />
     <Compile Include="ITileProvider.cs" />
     <Compile Include="Size.cs" />
     <Compile Include="TileManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TilePattern.cs" />
-    <Compile Include="BlocksAnimation.cs" />
+    <Compile Include="IBlocksAnimator.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
