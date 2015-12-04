@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animations\FadeInAnimation.cs" />
+    <Compile Include="Animations\FadeOutAnimation.cs" />
+    <Compile Include="Animations\SimpleAnimation.cs" />
     <Compile Include="AnimationType.cs" />
     <Compile Include="Block.cs" />
     <Compile Include="BlockAnimation.cs" />
