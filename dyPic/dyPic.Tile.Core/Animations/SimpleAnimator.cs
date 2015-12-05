@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace dyPic.Tile.Core.Animations
 {
-    public class SimpleAnimation : IBlocksAnimator
+    public class SimpleAnimator : IBlocksAnimator
     {
-        public SimpleAnimation(Block[] initialBlocks)
+        public SimpleAnimator(Block[] initialBlocks)
             : this(initialBlocks, 0.5f, 10)
         { }
 
-        public SimpleAnimation(Block[] initialBlocks, float seconds, float percent)
+        public SimpleAnimator(Block[] initialBlocks, float seconds, float percent)
         {
             ids = initialBlocks.Select(b => b.Id).ToList();
             maxId = ids.Max();

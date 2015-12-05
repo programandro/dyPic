@@ -42,14 +42,17 @@
   <ItemGroup>
     <Compile Include="Animations\FadeInAnimation.cs" />
     <Compile Include="Animations\FadeOutAnimation.cs" />
-    <Compile Include="Animations\SimpleAnimation.cs" />
+    <Compile Include="Animations\SimpleAnimator.cs" />
     <Compile Include="AnimationType.cs" />
     <Compile Include="Block.cs" />
     <Compile Include="BlockAnimation.cs" />
     <Compile Include="ITileProvider.cs" />
+    <Compile Include="Patterns\SimpleTilePattern.cs" />
+    <Compile Include="Point.cs" />
     <Compile Include="Size.cs" />
-    <Compile Include="TileManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SizeBoundary.cs" />
+    <Compile Include="SortedBlockList.cs" />
     <Compile Include="TilePattern.cs" />
     <Compile Include="IBlocksAnimator.cs" />
   </ItemGroup>

@@ -2,15 +2,13 @@
 {
     public class TilePattern
     {
-        public TilePattern(Block[] blocks, Block fixedBlock, IBlocksAnimator animator)
+        public TilePattern(Block[] blocks, Block fixedBlock)
         {
             Blocks = blocks;
-            Animator = animator;
             FixedBlock = fixedBlock;
         }
 
         public Block[] Blocks { get; private set; }
         public Block FixedBlock { get; private set; }
-        public IBlocksAnimator Animator { get; private set; }
     }
 }

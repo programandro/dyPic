@@ -8,6 +8,6 @@ namespace dyPic.Tile.Core
 {
     public interface ITileProvider
     {
-        TilePattern GetTile(Size screenSize, Size fixedTileLimits);
+        TilePattern GetTile(Size screenSize, int blockCount, SizeBoundary fixedTileLimits);
     }
 }
