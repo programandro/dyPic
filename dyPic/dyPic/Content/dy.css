@@ -1,0 +1,33 @@
+﻿.logIn {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@font-face {
+	font-family: "dyfont";
+	src: url("../fonts/dy.eot");
+	src: url("../fonts/dy.eot#iefix") format("embedded-opentype"),
+	url("../fonts/dy.woff") format("woff"),
+	url("../fonts/dy.ttf") format("truetype"),
+	url("../fonts/dy.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="dyfont-"]:before, [class*=" dyfont-"]:before,
+[class^="dyfont-"]:after, [class*=" dyfont-"]:after {   
+	font-family: dyfont;
+    font-style: normal;
+}.dyfont-key:before {
+	content: "\e000";
+}
+.dyfont-at:before {
+	content: "\e001";
+}
