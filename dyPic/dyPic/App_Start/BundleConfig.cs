@@ -11,6 +11,13 @@ namespace dyPic
     {
         public static void RegisterBundles(BundleCollection bundles)
         {
+            bundles.Add(new ScriptBundle("~/bundles/angular2")
+                .Include("https://code.angularjs.org/2.0.0-beta.0/angular2-polyfills.js")
+                .Include("https://code.angularjs.org/tools/system.js")
+                .Include("https://code.angularjs.org/tools/typescript.js")
+                .Include("https://code.angularjs.org/2.0.0-beta.0/Rx.js")
+                .Include("https://code.angularjs.org/2.0.0-beta.0/angular2.dev.js"));
+
             bundles.Add(new ScriptBundle("~/bundles/jquery")
                 .Include("~/Scripts/jquery-{version}.js"));
 
